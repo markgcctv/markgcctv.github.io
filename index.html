@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark G. CCTV - Professional Installation & Repair Cavite</title>
+    <style>
+        :root {
+            --dark-blue: #0b192c;
+            --cyan: #00d2c4;
+            --silver: #e2e8f0;
+            --light-bg: #f8fafc;
+            --text-dark: #1e293b;
+            --accent-blue: #0284c7;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--dark-blue);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--cyan);
+        }
+
+        .logo-container img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            margin: 5px 0;
+            font-size: 2.2rem;
+            color: white;
+        }
+
+        .subtitle {
+            color: var(--cyan);
+            font-size: 1.2rem;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--dark-blue);
+            border-left: 5px solid var(--cyan);
+            padding-left: 10px;
+            margin-top: 0;
+        }
+
+        /* Package Grid Setup */
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .package-box {
+            background: #fff;
+            border: 2px solid var(--silver);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s, border-color 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .package-box:hover {
+            transform: translateY(-5px);
+            border-color: var(--cyan);
+            box-shadow: 0 4px 12px rgba(0, 210, 196, 0.15);
+        }
+
+        .p-title {
+            color: var(--dark-blue);
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid var(--silver);
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p-price {
+            font-size: 1.5rem;
+            color: var(--accent-blue);
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .package-box ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .package-box li {
+            padding: 6px 0;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .package-box li::before {
+            content: "✔";
+            color: var(--cyan);
+            font-weight: bold;
+            margin-right: 8px;
+            font-size: 0.85rem;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--silver);
+            display: flex;
+            align-items: center;
+        }
+
+        .services-list li::before {
+            content: "✔";
+            color: var(--cyan);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .contact-info {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--cyan);
+            color: var(--dark-blue);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #00b8ac;
+            color: white;
+        }
+
+        footer {
+            background-color: var(--dark-blue);
+            color: #94a3b8;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Mark G. CCTV Logo">
+        </div>
+        <h1>Mark G. CCTV</h1>
+        <div class="subtitle">Professional CCTV Installer and trusted service provider</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>Tungkol sa Amin</h2>
+            <p>Kami ay isang <strong>Independent CCTV Specialist</strong> at <strong>Experienced Systems Installer</strong> na nakabase sa <strong>Sahud Ulan, Tanza, Cavite</strong>. Nagbibigay kami ng mataas na kalidad na serbisyong panseguridad para sa mga tahanan, establisyimento, at opisina upang matiyak ang kaligtasan ng inyong pamilya at ari-arian.</p>
+        </div>
+
+        <!-- COPIED PACKAGES FROM THE IMAGE -->
+        <div class="card">
+            <h2>Our CCTV Promo Packages</h2>
+            <p>Piliin ang tamang package na naaangkop sa inyong pangangailangan at badyet:</p>
+            
+            <div class="packages-grid">
+                
+                <!-- 2 CCTV PACKAGE -->
+                <div class="package-box">
+                    <div>
+                        <div class="p-title">2 CCTV Package</div>
+                        <div class="p-price">₱8,990 ONLY</div>
+                        <ul>
+                            <li>2 pcs Bullet or Dome Camera</li>
+                            <li>FREE Wire</li>
+                            <li>FREE Mouse</li>
+                            <li>CCTV Power Supply</li>
+                            <li>500 GB Storage</li>
+                            <li>Free Installation and Setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 4 CCTV PACKAGE -->
+                <div class="package-box">
+                    <div>
+                        <div class="p-title">4 CCTV Package</div>
+                        <div class="p-price">₱14,990 ONLY</div>
+                        <ul>
+                            <li>4 pcs Dome Camera</li>
+                            <li>4 Channels Full HD DVR</li>
+                            <li>CCTV Power Supply</li>
+                            <li>FREE Wire</li>
+                            <li>FREE Mouse</li>
+                            <li>Free Installation and Setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 6 CCTV PACKAGE -->
+                <div class="package-box">
+                    <div>
+                        <div class="p-title">6 CCTV Package</div>
+                        <div class="p-price">₱19,990 ONLY</div>
+                        <ul>
+                            <li>6 pcs Bullet Camera</li>
+                            <li>8 Channels Full HD DVR</li>
+                            <li>CCTV Power Supply</li>
+                            <li>FREE Wire</li>
+                            <li>FREE Mouse</li>
+                            <li>Free Installation and Setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 8 CCTV PACKAGE -->
+                <div class="package-box">
+                    <div>
+                        <div class="p-title">8 CCTV Package</div>
+                        <div class="p-price">₱24,990 ONLY</div>
+                        <ul>
+                            <li>8 pcs Bullet or Dome Camera</li>
+                            <li>8 Channels Full HD DVR</li>
+                            <li>CCTV Power Supply</li>
+                            <li>FREE Wire</li>
+                            <li>FREE Mouse</li>
+                            <li>Free Installation and Setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Mga Serbisyo Namin</h2>
+            <ul class="services-list">
+                <li><strong>Home & Business CCTV Installation</strong> - Propesyonal na pagkakabit ng mga pinakabagong Security Cameras.</li>
+                <li><strong>System Maintenance & Troubleshooting</strong> - Pagsusuri at pag-aayos ng mga malabong kuha, sirang wire, o hindi nagre-record na DVR.</li>
+                <li><strong>CCTV Repair Services</strong> - Pag-re-repair ng mga wiring system at setup ng mga surveillance equipment.</li>
+                <li><strong>Mobile Remote Viewing Setup</strong> - Pangkonekta ng inyong CCTV sa inyong smartphone para mamonitor mo ang lugar kahit nasaan ka man.</li>
+            </ul>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <h2>Makipag-ugnayan sa Amin</h2>
+            <p>Para sa mga katanungan, quotation, o schedule ng installation, tawagan o i-message kami:</p>
+            <div class="contact-info">📞 <strong>Phone:</strong> 09666947811</div>
+            <div class="contact-info">📍 <strong>Address:</strong> Sahud Ulan, Tanza, Cavite</div>
+            <a href="https://facebook.com" target="_blank" class="btn">Bisitahin ang Mark G. CCTV sa Facebook</a>
+        </div>
+
+    </div>
+
+    <footer>
